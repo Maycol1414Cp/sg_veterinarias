@@ -57,7 +57,7 @@ if ($end_page > $total_pages) {
                 <div class="container-fluid">
                     <div class="card">
                         <div class="card-header">
-                            <h1 class="m-0">Adminsitración Veterinaria </h1>
+                            <h1 class="m-0">Administracion Veterinaria </h1>
                         </div>
                         <div class="card-header">
                             <form action="" method="POST">

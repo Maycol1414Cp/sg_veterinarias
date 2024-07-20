@@ -26,9 +26,9 @@ $rpt = new VeterinariaModel();
 $records = $rpt->findAll();
 $records = $records['DATA'];
 
-$pdf = new PDF();
+$pdf = new PDF('L','mm','A3');
 $pdf->AliasNbPages();
-$pdf->AddPage();
+$pdf->AddPage('L');
 
 // Cabecera
 $pdf->SetFont('Arial', 'B', 12);

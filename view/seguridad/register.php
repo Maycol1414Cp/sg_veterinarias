@@ -56,7 +56,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <body class="register-page" style="min-height: 570.8px;">
     <div class="register-box">
         <div class="register-logo">
-            <a href=""><b>Sistemas Inscripciones</b></a>
+            <a href=""><b>Sistemas Veterinario</b></a>
         </div>
         <div class="card">
             <div class="card-body register-card-body">

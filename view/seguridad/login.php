@@ -64,7 +64,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         <div class="card card-outline card-primary">
             <div class="card-header text-center">
-                <a class="h1"><b>Sistema de Inscripciones</b</a>
+                <a class="h1"><b>Sistema Veterinario </b</a>
             </div>
             <div class="card-body">
                 <p class="login-box-msg">Iniciar Session</p>

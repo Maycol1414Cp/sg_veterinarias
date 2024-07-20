@@ -1,0 +1,10 @@
+RewriteEngine On
+Options -Indexes
+
+#establecer la bsae del direcortio para las reeescrituras
+RewriteBase /sg_veterinarias/
+
+#redireccionar  todas lsas solicitudes a index.php excepyop para archivos del
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]
